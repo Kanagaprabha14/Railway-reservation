@@ -1,0 +1,20 @@
+<form>
+  <label for="train_name">Train Name:</label>
+  <input type="text" id="train_name" name="train_name"><br><br>
+  <label for="from_station">From Station:</label>
+  <input type="text" id="from_station" name="from_station"><br><br>
+  <label for="to_station">To Station:</label>
+  <input type="text" id="to_station" name="to_station"><br><br>
+  <label for="journey_date">Journey Date:</label>
+  <input type="date" id="journey_date" name="journey_date"><br><br>
+  <label for="class">Class:</label>
+  <select id="class" name="class">
+    <option value="1st AC">1st AC</option>
+    <option value="2nd AC">2nd AC</option>
+    <option value="3rd AC">3rd AC</option>
+    <option value="Sleeper">Sleeper</option>
+  </select><br><br>
+  <label for="number_of_passengers">Number of Passengers:</label>
+  <input type="number" id="number_of_passengers" name="number_of_passengers"><br><br>
+  <input type="submit" value="Book Ticket">
+</form>
